@@ -7,7 +7,6 @@ public class Movement : MonoBehaviour
     private Rigidbody rb;
     private float movespeed;
     private float dirX, dirZ;
-    //public bool onGround = true;
 
     void Start()
     {
@@ -22,7 +21,6 @@ public class Movement : MonoBehaviour
         dirZ = Input.GetAxis("Vertical") * movespeed;
         
         rb.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
-            //onGround = false;
         
     }
 
@@ -30,6 +28,5 @@ public class Movement : MonoBehaviour
     {
         rb.velocity = new Vector3(dirX, rb.velocity.y, dirZ);
     }
-
 
 }
