@@ -4010,6 +4010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Straight_Exterior_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1d270d22136a7e64eabcf39aaaedb613, type: 3}
+      propertyPath: m_TagString
+      value: Object
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1d270d22136a7e64eabcf39aaaedb613, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -4766,6 +4770,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1d270d22136a7e64eabcf39aaaedb613, type: 3}
       propertyPath: m_Name
       value: Wall_Straight_Exterior_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1d270d22136a7e64eabcf39aaaedb613, type: 3}
+      propertyPath: m_TagString
+      value: Object
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1d270d22136a7e64eabcf39aaaedb613, type: 3}
       propertyPath: m_RootOrder
